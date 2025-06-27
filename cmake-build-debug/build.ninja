@@ -41,7 +41,7 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /home/pruden/CLionProjects/CSnake/cmake-build-debug/
 # =============================================================================
-# Object build statements for STATIC_LIBRARY target CSnake
+# Object build statements for EXECUTABLE target CSnake
 
 
 #############################################
@@ -52,24 +52,34 @@ build cmake_object_order_depends_target_CSnake: phony || .
 build CMakeFiles/CSnake.dir/main.c.o: C_COMPILER__CSnake_unscanned_Debug /home/pruden/CLionProjects/CSnake/main.c || cmake_object_order_depends_target_CSnake
   DEP_FILE = CMakeFiles/CSnake.dir/main.c.o.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/CSnake/tablero -I/home/pruden/CLionProjects/CSnake/contantes
   OBJECT_DIR = CMakeFiles/CSnake.dir
   OBJECT_FILE_DIR = CMakeFiles/CSnake.dir
 
+build CMakeFiles/CSnake.dir/tablero/tablero.c.o: C_COMPILER__CSnake_unscanned_Debug /home/pruden/CLionProjects/CSnake/tablero/tablero.c || cmake_object_order_depends_target_CSnake
+  DEP_FILE = CMakeFiles/CSnake.dir/tablero/tablero.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/CSnake/tablero -I/home/pruden/CLionProjects/CSnake/contantes
+  OBJECT_DIR = CMakeFiles/CSnake.dir
+  OBJECT_FILE_DIR = CMakeFiles/CSnake.dir/tablero
+
 
 # =============================================================================
-# Link build statements for STATIC_LIBRARY target CSnake
+# Link build statements for EXECUTABLE target CSnake
 
 
 #############################################
-# Link the static library libCSnake.a
+# Link the executable CSnake
 
-build libCSnake.a: C_STATIC_LIBRARY_LINKER__CSnake_Debug CMakeFiles/CSnake.dir/main.c.o
-  LANGUAGE_COMPILE_FLAGS = -g
+build CSnake: C_EXECUTABLE_LINKER__CSnake_Debug CMakeFiles/CSnake.dir/main.c.o CMakeFiles/CSnake.dir/tablero/tablero.c.o
+  DEP_FILE = CMakeFiles/CSnake.dir/link.d
+  FLAGS = -g
+  LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/CSnake.dir/link.d
   OBJECT_DIR = CMakeFiles/CSnake.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = libCSnake.a
-  TARGET_PDB = CSnake.a.dbg
+  TARGET_FILE = CSnake
+  TARGET_PDB = CSnake.dbg
 
 
 #############################################
@@ -97,8 +107,6 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CSnake: phony libCSnake.a
-
 # =============================================================================
 # Folder targets.
 
@@ -107,14 +115,7 @@ build CSnake: phony libCSnake.a
 #############################################
 # Folder: /home/pruden/CLionProjects/CSnake/cmake-build-debug
 
-build codegen: phony
-
-# =============================================================================
-
-#############################################
-# Folder: /home/pruden/CLionProjects/CSnake/cmake-build-debug
-
-build all: phony libCSnake.a
+build all: phony CSnake
 
 # =============================================================================
 # Built-in targets

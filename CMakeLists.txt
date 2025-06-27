@@ -1,7 +1,16 @@
-cmake_minimum_required(VERSION 3.31)
+cmake_minimum_required(VERSION 3.16)
 project(CSnake C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(CSnake
-        main.c)
+add_executable(CSnake
+        main.c
+        contantes/globales.h
+        tablero/tablero.c
+        tablero/tablero.h
+)
+
+include_directories(
+        tablero
+        contantes
+)

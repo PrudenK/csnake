@@ -1,0 +1,3 @@
+/home/pruden/CLionProjects/CSnake/build/CMakeFiles/CSnake.dir
+/home/pruden/CLionProjects/CSnake/build/CMakeFiles/edit_cache.dir
+/home/pruden/CLionProjects/CSnake/build/CMakeFiles/rebuild_cache.dir
