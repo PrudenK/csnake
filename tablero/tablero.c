@@ -8,13 +8,22 @@
 
 #include "globales.h"
 
+void imprimir_celda(int valor);
+
 void imprimir_tablero() {
-    for (int i= 0; i < FILAS; i++) {
+    printf("\033[H\033[J");
+    printf("\n");
+    printf("              🐍 SNAKE EN C 🐍\n\n");
+
+    for (int i = 0; i < FILAS; i++) {
+        printf("  ");
         for (int j = 0; j < COLUMNS; j++) {
-            printf("%d", tablero[i][j]);
+            imprimir_celda(tablero[i][j]);
         }
         printf("\n");
     }
+
+    printf("\n");
 }
 
 void cargar_tablero() {
@@ -36,3 +45,27 @@ void cargar_tablero() {
         }
     }
 }
+
+void imprimir_celda(int valor) {
+    switch (valor) {
+        case CAS_0:
+            printf("\033[48;5;26m  \033[0m");  // Azul intermedio
+            break;
+        case CAS_1:
+            printf("\033[48;5;32m  \033[0m");  // Azul mediano
+            break;
+        case SERPIENTE_CUERPO:
+            printf("\033[48;5;34m  \033[0m");  // Verde pasto
+            break;
+        case SERPIENTE_CABEZA:
+            printf("\033[48;5;46m  \033[0m");  // Verde lima
+            break;
+        case COMIDA:
+            printf("\033[48;5;196m  \033[0m");  // Rojo vibrante
+            break;
+        default:
+            printf("??");
+            break;
+    }
+}
+
