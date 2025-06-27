@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CSnake.dir/main.c.o"
   "CMakeFiles/CSnake.dir/main.c.o.d"
+  "CMakeFiles/CSnake.dir/snake/serpiente.c.o"
+  "CMakeFiles/CSnake.dir/snake/serpiente.c.o.d"
   "CMakeFiles/CSnake.dir/tablero/tablero.c.o"
   "CMakeFiles/CSnake.dir/tablero/tablero.c.o.d"
   "CSnake"

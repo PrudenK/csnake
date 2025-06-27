@@ -8,6 +8,8 @@ add_executable(CSnake
         contantes/globales.h
         tablero/tablero.c
         tablero/tablero.h
+        snake/serpiente.c
+        snake/serpiente.h
 )
 
 include_directories(

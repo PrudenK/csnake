@@ -31,7 +31,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 13,
+				"line" : 15,
 				"parent" : 0
 			}
 		]
@@ -68,7 +68,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				4
 			]
 		}
 	],
@@ -102,7 +103,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2
+				2,
+				4
 			]
 		},
 		{
@@ -110,7 +112,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				3
+				3,
+				5
 			]
 		}
 	],
@@ -136,6 +139,17 @@
 		{
 			"backtrace" : 1,
 			"path" : "tablero/tablero.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "snake/serpiente.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "snake/serpiente.h",
 			"sourceGroupIndex" : 1
 		}
 	],

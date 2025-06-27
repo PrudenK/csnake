@@ -81,12 +81,12 @@ clean: CMakeFiles/CSnake.dir/clean
 CMakeFiles/CSnake.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pruden/CLionProjects/CSnake/build/CMakeFiles --progress-num=1,2,3 "Built target CSnake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/pruden/CLionProjects/CSnake/build/CMakeFiles --progress-num=1,2,3,4 "Built target CSnake"
 .PHONY : CMakeFiles/CSnake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CSnake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/CSnake/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/CSnake/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CSnake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pruden/CLionProjects/CSnake/build/CMakeFiles 0
 .PHONY : CMakeFiles/CSnake.dir/rule

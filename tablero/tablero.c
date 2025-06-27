@@ -22,7 +22,6 @@ void imprimir_tablero() {
         }
         printf("\n");
     }
-
     printf("\n");
 }
 

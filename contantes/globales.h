@@ -8,10 +8,12 @@
 #define COLUMNS 20
 #define CAS_0 0
 #define CAS_1 1
+#define MAX_SERPIENTE 100
 
 #define SERPIENTE_CUERPO 2
 #define SERPIENTE_CABEZA 3
 #define COMIDA 4
 
 extern int tablero[FILAS][COLUMNS];
+extern int puntuacion;
 #endif //GLOBALES_H

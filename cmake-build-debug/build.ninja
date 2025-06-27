@@ -63,6 +63,13 @@ build CMakeFiles/CSnake.dir/tablero/tablero.c.o: C_COMPILER__CSnake_unscanned_De
   OBJECT_DIR = CMakeFiles/CSnake.dir
   OBJECT_FILE_DIR = CMakeFiles/CSnake.dir/tablero
 
+build CMakeFiles/CSnake.dir/snake/serpiente.c.o: C_COMPILER__CSnake_unscanned_Debug /home/pruden/CLionProjects/CSnake/snake/serpiente.c || cmake_object_order_depends_target_CSnake
+  DEP_FILE = CMakeFiles/CSnake.dir/snake/serpiente.c.o.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/pruden/CLionProjects/CSnake/tablero -I/home/pruden/CLionProjects/CSnake/contantes
+  OBJECT_DIR = CMakeFiles/CSnake.dir
+  OBJECT_FILE_DIR = CMakeFiles/CSnake.dir/snake
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CSnake
@@ -71,7 +78,7 @@ build CMakeFiles/CSnake.dir/tablero/tablero.c.o: C_COMPILER__CSnake_unscanned_De
 #############################################
 # Link the executable CSnake
 
-build CSnake: C_EXECUTABLE_LINKER__CSnake_Debug CMakeFiles/CSnake.dir/main.c.o CMakeFiles/CSnake.dir/tablero/tablero.c.o
+build CSnake: C_EXECUTABLE_LINKER__CSnake_Debug CMakeFiles/CSnake.dir/main.c.o CMakeFiles/CSnake.dir/tablero/tablero.c.o CMakeFiles/CSnake.dir/snake/serpiente.c.o
   DEP_FILE = CMakeFiles/CSnake.dir/link.d
   FLAGS = -g
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/CSnake.dir/link.d

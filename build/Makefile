@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/main.c.s
 .PHONY : main.c.s
 
+snake/serpiente.o: snake/serpiente.c.o
+.PHONY : snake/serpiente.o
+
+# target to build an object file
+snake/serpiente.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/snake/serpiente.c.o
+.PHONY : snake/serpiente.c.o
+
+snake/serpiente.i: snake/serpiente.c.i
+.PHONY : snake/serpiente.i
+
+# target to preprocess a source file
+snake/serpiente.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/snake/serpiente.c.i
+.PHONY : snake/serpiente.c.i
+
+snake/serpiente.s: snake/serpiente.c.s
+.PHONY : snake/serpiente.s
+
+# target to generate assembly for a file
+snake/serpiente.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/snake/serpiente.c.s
+.PHONY : snake/serpiente.c.s
+
 tablero/tablero.o: tablero/tablero.c.o
 .PHONY : tablero/tablero.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... snake/serpiente.o"
+	@echo "... snake/serpiente.i"
+	@echo "... snake/serpiente.s"
 	@echo "... tablero/tablero.o"
 	@echo "... tablero/tablero.i"
 	@echo "... tablero/tablero.s"
