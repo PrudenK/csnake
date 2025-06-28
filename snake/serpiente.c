@@ -50,13 +50,13 @@ void mover_serpiente() {
         int celda = tablero[y][x];
         if (x < 0 || x >= COLUMNS || y < 0 || y >= FILAS) {
             restaurar_terminal();
-            printf("GAME OVER!\n");
+            printf("   GAME OVER!\n");
             exit(1);
         }
 
         if (celda == SERPIENTE_CUERPO) {
             restaurar_terminal();
-            printf("GAME OVER!\n");
+            printf("   GAME OVER!\n");
             exit(1);
         }
 
