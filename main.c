@@ -17,8 +17,6 @@
 int tablero[FILAS][COLUMNS] = {0};
 int puntuacion = 0;
 
-
-
 Coordenada serpiente[MAX_SERPIENTE];
 int tama_serpiente = 3;
 

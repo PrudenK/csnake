@@ -20,6 +20,11 @@ void imprimir_tablero() {
         for (int j = 0; j < COLUMNS; j++) {
             imprimir_celda(tablero[i][j]);
         }
+
+        if (i == FILAS - 18) {
+            printf("  Puntuación: %d", puntuacion);
+        }
+
         printf("\n");
     }
     printf("\n");
