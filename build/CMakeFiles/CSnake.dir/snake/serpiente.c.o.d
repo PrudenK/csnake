@@ -52,5 +52,6 @@ CMakeFiles/CSnake.dir/snake/serpiente.c.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+ /home/pruden/CLionProjects/CSnake/manzanas/generar_manzanas.h \
  /home/pruden/CLionProjects/CSnake/tablero/tablero.h \
  /home/pruden/CLionProjects/CSnake/teclado/teclado.h

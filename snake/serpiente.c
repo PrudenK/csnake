@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "generar_manzanas.h"
 #include "tablero.h"
 #include "teclado.h"
 
@@ -40,18 +41,32 @@ void mover_serpiente() {
 
     cargar_tablero();
 
+    tablero[manzana_y][manzana_x] = MANZANA;
+
     for (int i = 0; i < tama_serpiente; i++) {
         int x = serpiente[i].x;
         int y = serpiente[i].y;
 
+        int celda = tablero[y][x];
         if (x < 0 || x >= COLUMNS || y < 0 || y >= FILAS) {
             restaurar_terminal();
             printf("GAME OVER!\n");
             exit(1);
         }
 
+        if (celda == SERPIENTE_CUERPO) {
+            restaurar_terminal();
+            printf("GAME OVER!\n");
+            exit(1);
+        }
+
+        if (celda == MANZANA) {
+            tama_serpiente++;
+            puntuacion += 1;
+            generar_manzana();
+        }
+
+
         tablero[y][x] = (i == 0) ? SERPIENTE_CABEZA : SERPIENTE_CUERPO;
     }
-
-    tablero[manzana_y][manzana_x] = MANZANA;
 }

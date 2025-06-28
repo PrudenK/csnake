@@ -128,6 +128,7 @@ CMakeFiles/CSnake.dir/manzanas/generar_manzanas.c.o
 CMakeFiles/CSnake.dir/snake/serpiente.c.o
  /home/pruden/CLionProjects/CSnake/snake/serpiente.c
  /home/pruden/CLionProjects/CSnake/contantes/globales.h
+ /home/pruden/CLionProjects/CSnake/manzanas/generar_manzanas.h
  /home/pruden/CLionProjects/CSnake/snake/serpiente.h
  /home/pruden/CLionProjects/CSnake/tablero/tablero.h
  /home/pruden/CLionProjects/CSnake/teclado/teclado.h
