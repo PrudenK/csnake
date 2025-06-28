@@ -10,9 +10,13 @@ add_executable(CSnake
         tablero/tablero.h
         snake/serpiente.c
         snake/serpiente.h
+        teclado/teclado.c
+        teclado/teclado.h
 )
 
 include_directories(
         tablero
         contantes
+        snake
+        teclado
 )

@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pruden/CLionProjects/CSnake/main.c" "CMakeFiles/CSnake.dir/main.c.o" "gcc" "CMakeFiles/CSnake.dir/main.c.o.d"
   "/home/pruden/CLionProjects/CSnake/snake/serpiente.c" "CMakeFiles/CSnake.dir/snake/serpiente.c.o" "gcc" "CMakeFiles/CSnake.dir/snake/serpiente.c.o.d"
   "/home/pruden/CLionProjects/CSnake/tablero/tablero.c" "CMakeFiles/CSnake.dir/tablero/tablero.c.o" "gcc" "CMakeFiles/CSnake.dir/tablero/tablero.c.o.d"
+  "/home/pruden/CLionProjects/CSnake/teclado/teclado.c" "CMakeFiles/CSnake.dir/teclado/teclado.c.o" "gcc" "CMakeFiles/CSnake.dir/teclado/teclado.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

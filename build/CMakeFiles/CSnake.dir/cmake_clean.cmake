@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CSnake.dir/snake/serpiente.c.o.d"
   "CMakeFiles/CSnake.dir/tablero/tablero.c.o"
   "CMakeFiles/CSnake.dir/tablero/tablero.c.o.d"
+  "CMakeFiles/CSnake.dir/teclado/teclado.c.o"
+  "CMakeFiles/CSnake.dir/teclado/teclado.c.o.d"
   "CSnake"
   "CSnake.pdb"
 )

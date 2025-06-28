@@ -15,6 +15,6 @@ extern Coordenada serpiente[MAX_SERPIENTE];
 extern int tama_serpiente;
 
 void inicializar_serpiente();
-
+void mover_serpiente();
 extern char direc;
 #endif //SERPIENTE_H

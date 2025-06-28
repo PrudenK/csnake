@@ -53,6 +53,13 @@ CMakeFiles/CSnake.dir/main.c.o: /home/pruden/CLionProjects/CSnake/main.c \
  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/x86_64-linux-gnu/bits/environments.h \
+ /usr/include/x86_64-linux-gnu/bits/confname.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+ /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+ /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
  /home/pruden/CLionProjects/CSnake/contantes/globales.h \
  /home/pruden/CLionProjects/CSnake/tablero/tablero.h \
+ /home/pruden/CLionProjects/CSnake/teclado/teclado.h \
  /home/pruden/CLionProjects/CSnake/snake/serpiente.h

@@ -16,4 +16,5 @@
 
 extern int tablero[FILAS][COLUMNS];
 extern int puntuacion;
+extern char direc;
 #endif //GLOBALES_H

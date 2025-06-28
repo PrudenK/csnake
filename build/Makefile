@@ -201,6 +201,30 @@ tablero/tablero.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/tablero/tablero.c.s
 .PHONY : tablero/tablero.c.s
 
+teclado/teclado.o: teclado/teclado.c.o
+.PHONY : teclado/teclado.o
+
+# target to build an object file
+teclado/teclado.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/teclado/teclado.c.o
+.PHONY : teclado/teclado.c.o
+
+teclado/teclado.i: teclado/teclado.c.i
+.PHONY : teclado/teclado.i
+
+# target to preprocess a source file
+teclado/teclado.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/teclado/teclado.c.i
+.PHONY : teclado/teclado.c.i
+
+teclado/teclado.s: teclado/teclado.c.s
+.PHONY : teclado/teclado.s
+
+# target to generate assembly for a file
+teclado/teclado.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/teclado/teclado.c.s
+.PHONY : teclado/teclado.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -219,6 +243,9 @@ help:
 	@echo "... tablero/tablero.o"
 	@echo "... tablero/tablero.i"
 	@echo "... tablero/tablero.s"
+	@echo "... teclado/teclado.o"
+	@echo "... teclado/teclado.i"
+	@echo "... teclado/teclado.s"
 .PHONY : help
 
 

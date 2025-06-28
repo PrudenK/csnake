@@ -5,9 +5,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 #include "globales.h"
 #include "tablero.h"
+#include "teclado.h"
 #include "snake/serpiente.h"
 
 
@@ -23,14 +25,18 @@ char direc = 'D';
 
 int main() {
     srand(time(NULL));
+    configurar_terminal_sin_buffer();
 
-    cargar_tablero();
+
     inicializar_serpiente();
 
-    imprimir_tablero();
 
-
-
+    while (1) {
+        manejar_input();
+        mover_serpiente();
+        imprimir_tablero();
+        usleep(150000); // 150 ms
+    }
 
 
     return 0;
