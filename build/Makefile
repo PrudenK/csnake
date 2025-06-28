@@ -153,6 +153,30 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/main.c.s
 .PHONY : main.c.s
 
+manzanas/generar_manzanas.o: manzanas/generar_manzanas.c.o
+.PHONY : manzanas/generar_manzanas.o
+
+# target to build an object file
+manzanas/generar_manzanas.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/manzanas/generar_manzanas.c.o
+.PHONY : manzanas/generar_manzanas.c.o
+
+manzanas/generar_manzanas.i: manzanas/generar_manzanas.c.i
+.PHONY : manzanas/generar_manzanas.i
+
+# target to preprocess a source file
+manzanas/generar_manzanas.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/manzanas/generar_manzanas.c.i
+.PHONY : manzanas/generar_manzanas.c.i
+
+manzanas/generar_manzanas.s: manzanas/generar_manzanas.c.s
+.PHONY : manzanas/generar_manzanas.s
+
+# target to generate assembly for a file
+manzanas/generar_manzanas.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CSnake.dir/build.make CMakeFiles/CSnake.dir/manzanas/generar_manzanas.c.s
+.PHONY : manzanas/generar_manzanas.c.s
+
 snake/serpiente.o: snake/serpiente.c.o
 .PHONY : snake/serpiente.o
 
@@ -237,6 +261,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... manzanas/generar_manzanas.o"
+	@echo "... manzanas/generar_manzanas.i"
+	@echo "... manzanas/generar_manzanas.s"
 	@echo "... snake/serpiente.o"
 	@echo "... snake/serpiente.i"
 	@echo "... snake/serpiente.s"

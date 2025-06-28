@@ -62,4 +62,5 @@ CMakeFiles/CSnake.dir/main.c.o: /home/pruden/CLionProjects/CSnake/main.c \
  /home/pruden/CLionProjects/CSnake/contantes/globales.h \
  /home/pruden/CLionProjects/CSnake/tablero/tablero.h \
  /home/pruden/CLionProjects/CSnake/teclado/teclado.h \
+ /home/pruden/CLionProjects/CSnake/manzanas/generar_manzanas.h \
  /home/pruden/CLionProjects/CSnake/snake/serpiente.h

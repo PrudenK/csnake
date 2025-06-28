@@ -52,4 +52,6 @@ void mover_serpiente() {
 
         tablero[y][x] = (i == 0) ? SERPIENTE_CABEZA : SERPIENTE_CUERPO;
     }
+
+    tablero[manzana_y][manzana_x] = MANZANA;
 }

@@ -10,6 +10,7 @@
 #include "globales.h"
 #include "tablero.h"
 #include "teclado.h"
+#include "manzanas/generar_manzanas.h"
 #include "snake/serpiente.h"
 
 
@@ -23,13 +24,16 @@ int tama_serpiente = 3;
 
 char direc = 'D';
 
+int manzana_x = -1;
+int manzana_y = -1;
+
 int main() {
     srand(time(NULL));
     configurar_terminal_sin_buffer();
 
 
     inicializar_serpiente();
-
+    generar_manzana();
 
     while (1) {
         manejar_input();

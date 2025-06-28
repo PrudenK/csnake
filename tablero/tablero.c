@@ -59,7 +59,7 @@ void imprimir_celda(int valor) {
         case SERPIENTE_CABEZA:
             printf("\033[48;5;46m  \033[0m");  // Verde lima
             break;
-        case COMIDA:
+        case MANZANA:
             printf("\033[48;5;196m  \033[0m");  // Rojo vibrante
             break;
         default:

@@ -1,1 +1,1 @@
-/usr/bin/cc CMakeFiles/CSnake.dir/main.c.o CMakeFiles/CSnake.dir/tablero/tablero.c.o CMakeFiles/CSnake.dir/snake/serpiente.c.o CMakeFiles/CSnake.dir/teclado/teclado.c.o -o CSnake 
+/usr/bin/cc CMakeFiles/CSnake.dir/main.c.o CMakeFiles/CSnake.dir/tablero/tablero.c.o CMakeFiles/CSnake.dir/snake/serpiente.c.o CMakeFiles/CSnake.dir/teclado/teclado.c.o CMakeFiles/CSnake.dir/manzanas/generar_manzanas.c.o -o CSnake 

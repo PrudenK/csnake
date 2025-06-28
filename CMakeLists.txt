@@ -12,6 +12,8 @@ add_executable(CSnake
         snake/serpiente.h
         teclado/teclado.c
         teclado/teclado.h
+        manzanas/generar_manzanas.c
+        manzanas/generar_manzanas.h
 )
 
 include_directories(
@@ -19,4 +21,5 @@ include_directories(
         contantes
         snake
         teclado
+        manzanas
 )

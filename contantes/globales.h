@@ -12,9 +12,13 @@
 
 #define SERPIENTE_CUERPO 2
 #define SERPIENTE_CABEZA 3
-#define COMIDA 4
+#define MANZANA 4
 
 extern int tablero[FILAS][COLUMNS];
 extern int puntuacion;
 extern char direc;
+
+extern int manzana_x;
+extern int manzana_y;
+
 #endif //GLOBALES_H

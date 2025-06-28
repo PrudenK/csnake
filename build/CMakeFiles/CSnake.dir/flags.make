@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/pruden/CLionProjects/CSnake/tablero -I/home/pruden/CLionProjects/CSnake/contantes -I/home/pruden/CLionProjects/CSnake/snake -I/home/pruden/CLionProjects/CSnake/teclado
+C_INCLUDES = -I/home/pruden/CLionProjects/CSnake/tablero -I/home/pruden/CLionProjects/CSnake/contantes -I/home/pruden/CLionProjects/CSnake/snake -I/home/pruden/CLionProjects/CSnake/teclado -I/home/pruden/CLionProjects/CSnake/manzanas
 
 C_FLAGS = -std=gnu11
 
