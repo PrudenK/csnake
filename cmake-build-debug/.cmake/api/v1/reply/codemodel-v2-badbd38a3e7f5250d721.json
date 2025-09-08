@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CSnake::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CSnake-Debug-50e0d799ad7e7f6db659.json",
+					"jsonFile" : "target-CSnake-Debug-aeb31d7f419fe9f2c47b.json",
 					"name" : "CSnake",
 					"projectIndex" : 0
 				}
@@ -55,6 +55,6 @@
 	"version" : 
 	{
 		"major" : 2,
-		"minor" : 7
+		"minor" : 8
 	}
 }
